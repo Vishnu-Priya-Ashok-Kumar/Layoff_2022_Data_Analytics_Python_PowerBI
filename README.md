@@ -54,6 +54,7 @@ df["stage"].fillna('Unknown', inplace=True) # Replacing NaN values with 'Unknown
 
 df.to_excel('FinalProject_cleaneddata.xlsx') # Exporting and saving cleaned dataset
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/57005703-d873-4737-b59f-52485b994abe)
 
 ## Data Manipulation
 
@@ -62,12 +63,14 @@ df.to_excel('FinalProject_cleaneddata.xlsx') # Exporting and saving cleaned data
 LaidoffByCountry = df.groupby(['country'])['total_laid_off'].sum()
 print(LaidoffByCountry)
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/68f4fe48-37e9-4a4c-a299-ef8a9560bd1e)
 
 ### Grouping total laid off during each year
 ```python
 GroupByYear = df.groupby(df['date'].dt.year)['total_laid_off'].agg(['sum'])
 print(GroupByYear)
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/f4e0ab0a-da47-4b06-b8fb-05aaed127247)
 
 ### Categorizing specific country and industry based on specific funding stage
 ```python
@@ -75,11 +78,13 @@ FundingStages = df.loc[df['stage'] == 'Acquired']
 result = FundingStages.loc[(FundingStages['country'] == 'United States') & (FundingStages['industry'] == 'Media')]
 result.head(50)
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/50fa2e64-4872-4923-b5a2-3541ac79d139)
 
 ### Top 5 Countries where layoff has occurred
 ```python
 df.groupby('country')['total_laid_off'].sum().sort_values(ascending=False).head().plot(ylabel="", figsize=(8,8), kind='pie', stacked=True, colormap='tab10')
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/39798a65-378e-409c-ae9c-b38daa331193)
 
 ### Total layoffs worldwide since 2020 in various industries
 ```python
@@ -89,6 +94,7 @@ plt.title("Total layoffs worldwide since 2020 in various industries")
 plt.ylabel("Reported layoff Numbers")
 dfIndustries2020 = df.groupby('industry').sum()['total_laid_off'].sort_values(ascending=False).plot(figsize=(16,8), kind='bar', stacked=True, colormap='cool')
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/cd21af07-6a58-4c19-b8b4-e1eb696aa5a9)
 
 ### Annual layoffs across industries in every country
 ```python
@@ -102,6 +108,7 @@ plt.title("Annual layoffs across industries in every country")
 sns.set(style="white", palette="Set2", color_codes=True)
 sns.barplot(data=dfIndustryAnnual.sort_values(by=['total_laid_off','date'], ascending=False), x="industry", y="total_laid_off", hue="date")
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/3fa7faa6-00c0-417c-a0c0-94f688be2216)
 
 ### Top 5 Companies that laid off Staff's in 2022
 ```python
@@ -112,6 +119,9 @@ df2020Companies = df.loc[(df.index > '2020-01-01')&(df.index < '2021-01-01')]
 df2022CompaniesLayoffCount = df2022Companies.sort_values(by='total_laid_off', ascending=False)
 df2022CompaniesLayoffCount.head()
 ```
+![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/71884807-2379-4524-a817-762cfba69d6a)
+
+
 ## Summary
 
 The COVID-19 pandemic has had profound effects on the global economy, with the tech industry being no exception. Layoffs in tech companies have become increasingly prevalent as businesses navigate through economic uncertainties. The "Layoff 2022 Data Analytics" project addresses this phenomenon by providing a comprehensive analysis of layoffs in the tech sector.
