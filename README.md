@@ -4,7 +4,7 @@
 1. [Project Overview](#project-overview)
 2. [Project Title](#project-title)
 3. [Project Done By](#project-done-by)
-4. [Client](#client)
+4. [Clients](#clients)
 5. [Operational Analytics Problem Statement](#operational-analytics-problem-statement)
 6. [Project Deliverable](#project-deliverable)
 7. [How does your solution provide value?](#how-does-your-solution-provide-value)
@@ -22,7 +22,7 @@ ANALYSIS OF LAYOFF IN THE TECH INDUSTRIES FROM COVID 2020 – 2022 – "Evaluati
 ### Project Done By
 Vishnu Priya Ashok Kumar
 
-### Client
+### Clients
 Financial organizations and the Tech Companies
 
 ### Operational Analytics Problem Statement
