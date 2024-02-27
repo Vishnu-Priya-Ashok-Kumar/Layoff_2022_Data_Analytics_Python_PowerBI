@@ -1,23 +1,34 @@
 # Layoff 2022 Data Analytics
+## Table of Contents
 
-## Project Overview:
+1. [Project Overview](#project-overview)
+2. [Project Title](#project-title)
+3. [Project Done By](#project-done-by)
+4. [Client](#client)
+5. [Operational Analytics Problem Statement](#operational-analytics-problem-statement)
+6. [Project Deliverable](#project-deliverable)
+7. [How does your solution provide value?](#how-does-your-solution-provide-value)
+8. [Data Cleaning](#data-cleaning)
+9. [Data Manipulation](#data-manipulation)
+10. [Summary](#summary)
+## Project Overview
 
 The "Layoff 2022 Data Analytics" project aims to analyze the impact of layoffs in the tech industries from 2020 to 2022, specifically evaluating the effects of the COVID-19 pandemic. The project delves into understanding the trends, patterns, and implications of layoffs across various tech companies worldwide. It involves data collection, cleaning, manipulation, and visualization to derive meaningful insights.
 
 
-### Project Title:
+### Project Title
 ANALYSIS OF LAYOFF IN THE TECH INDUSTRIES FROM COVID 2020 – 2022 – "Evaluating Tech companies affected as a result of the pandemic"
 
-### Project Done By:
+### Project Done By
 Vishnu Priya Ashok Kumar
 
-### Clients:
+### Client
 Financial organizations and the Tech Companies
 
-### Operational Analytics Problem Statement:
+### Operational Analytics Problem Statement
 Tech companies all across the world are battling the recession. Slow consumer spending, increasing central bank interest rates, and strong foreign currencies all point to a potential recession, and IT companies have already begun to lay off staff.
 
-### Project Deliverable:
+### Project Deliverable
 The component of our solution will be based on the dashboard and the Analysis Report.
 - The dashboard will contain information which will be summarized and displayed on different charts/graphs to analyze the Layoff’s in the Tech industry during the pandemic till present using Power BI.
 - The analysis model would utilize a lot of queries to draw conclusions and to determine associations between variables within the dataset using Python-Jupyter Notebook.
@@ -101,7 +112,7 @@ df2020Companies = df.loc[(df.index > '2020-01-01')&(df.index < '2021-01-01')]
 df2022CompaniesLayoffCount = df2022Companies.sort_values(by='total_laid_off', ascending=False)
 df2022CompaniesLayoffCount.head()
 ```
-## Summary:
+## Summary
 
 The COVID-19 pandemic has had profound effects on the global economy, with the tech industry being no exception. Layoffs in tech companies have become increasingly prevalent as businesses navigate through economic uncertainties. The "Layoff 2022 Data Analytics" project addresses this phenomenon by providing a comprehensive analysis of layoffs in the tech sector.
 
