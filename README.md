@@ -1,4 +1,5 @@
-# Layoff 2022 Data Analytics
+# Layoff 2022 Data Analytics Python Project
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -11,13 +12,14 @@
 8. [Data Cleaning](#data-cleaning)
 9. [Data Manipulation](#data-manipulation)
 10. [Summary](#summary)
+    
 ## Project Overview
 
 The "Layoff 2022 Data Analytics" project aims to analyze the impact of layoffs in the tech industries from 2020 to 2022, specifically evaluating the effects of the COVID-19 pandemic. The project delves into understanding the trends, patterns, and implications of layoffs across various tech companies worldwide. It involves data collection, cleaning, manipulation, and visualization to derive meaningful insights.
 
 
 ### Project Title
-ANALYSIS OF LAYOFF IN THE TECH INDUSTRIES FROM COVID 2020 – 2022 – "Evaluating Tech companies affected as a result of the pandemic"
+Analysis Of Layoff In The Tech Industries From Covid 2020 – 2022 – "Evaluating Tech companies affected as a result of the pandemic"
 
 ### Project Done By
 Vishnu Priya Ashok Kumar
