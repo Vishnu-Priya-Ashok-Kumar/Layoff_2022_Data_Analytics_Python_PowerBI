@@ -1,5 +1,7 @@
 # Layoff 2022 Data Analytics Python Project
 
+Here's the updated table of contents for your GitHub README file:
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -12,9 +14,13 @@
 8. [Methods of Identifying and Analyzing Data](#methods-of-identifying-and-analyzing-data)
 9. [Data Cleaning](#data-cleaning)
 10. [Data Manipulation](#data-manipulation)
-11. [Key Insights Using Power BI](#key-insights-using-power-bi)
-12. [Creating Dashboard for Layoff 2022 using Power BI](#creating-dashboard-for-layoff-2022-using-power-bi)
-13. [Summary](#summary)
+11. [Utilizing Power BI for Data Visualization](#utilizing-power-bi-for-data-visualization)
+12. [Generating Key Insights Using Power BI](#generating-key-insights-using-power-bi)
+13. [Creating Dashboard for Layoff 2022 using Power BI](#creating-dashboard-for-layoff-2022-using-power-bi)
+14. [Integration of CRISP-DM Methodology](#integration-of-crisp-dm-methodology)
+15. [Summary](#summary)
+
+With these updates, the README file provides a structured outline of your project content, making it easier for readers to navigate through different sections.
 
     
 ## Project Overview
