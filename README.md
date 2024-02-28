@@ -8,10 +8,14 @@
 4. [Clients](#clients)
 5. [Operational Analytics Problem Statement](#operational-analytics-problem-statement)
 6. [Project Deliverable](#project-deliverable)
-7. [How does your solution provide value?](#how-does-your-solution-provide-value)
-8. [Data Cleaning](#data-cleaning)
-9. [Data Manipulation](#data-manipulation)
-10. [Summary](#summary)
+7. [Understanding Data](#understanding-data)
+8. [Methods of Identifying and Analyzing Data](#methods-of-identifying-and-analyzing-data)
+9. [Data Cleaning](#data-cleaning)
+10. [Data Manipulation](#data-manipulation)
+11. [Key Insights Using Power BI](#key-insights-using-power-bi)
+12. [Creating Dashboard for Layoff 2022 using Power BI](#creating-dashboard-for-layoff-2022-using-power-bi)
+13. [Summary](#summary)
+
     
 ## Project Overview
 
@@ -59,17 +63,6 @@ The component of our solution will be based on the dashboard and the Analysis Re
 - Cleaning and manipulation of data were processed using Python-Jupyter Notes
   
 - Analysis and dashboard were created using Power BI and Python-Jupyter Note
-
-### Analysis Approach using CRISP-DM
-
-- **Business understanding** : Having a good understanding of the objectives and requirements of the business 
-- **Data understanding** : Collecting data and familiarizing with data to identify how data needs to be presented for manipulation
-- **Data preparation** : Cleans and converts data to a useful form 
-- **Modelling** : Applies the appropriate modelling techniques to extract quality information that aligns with the business cause
-- **Evaluation** : Assessing results generated using various parameters 
-- **Deployment** : Submitting and presenting outcomes to the clients
-
-
 
 
 ### How does your solution provide value?
@@ -159,12 +152,32 @@ df2022CompaniesLayoffCount.head()
 ```
 ![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/71884807-2379-4524-a817-762cfba69d6a)
 
+## Utilizing Power BI for Data Visualization
 
-## Generating Key Insights Using Power BI
+In addition to the data manipulation techniques performed using Python and Jupyter Notebook, the project also utilizes Power BI for creating interactive and insightful visualizations. Power BI enables the creation of dynamic dashboards and reports to present the analyzed data in a user-friendly format.
+
+### Generating Key Insights Using Power BI
+The project extracts key insights from the analyzed data using Power BI. Through interactive visualizations and reports, stakeholders can gain a deeper understanding of the trends, patterns, and implications of layoffs in the tech industry.
+
 ![image](https://github.com/Vishnu-Priya-Ashok-Kumar/Python-Project-Layoff-Analysis-2022/assets/67804361/8196f789-ba9f-450c-ac75-4b05f49a3494)
+
+
 ## Creating Dashboard for layout 2022 using Power BI
+
+The project includes the creation of a comprehensive dashboard for Layoff 2022 using Power BI. This dashboard provides a centralized view of the analyzed data, allowing users to explore and interact with the information effectively.
+
 ![image](https://github.com/Vishnu-Priya-Ashok-Kumar/Python-Project-Layoff-Analysis-2022/assets/67804361/1b982575-7c1f-41bf-8975-f799efc08e7f)
 
+### Integration of CRISP-DM Methodology
+
+The project follows the Cross-Industry Standard Process for Data Mining (CRISP-DM) methodology, which includes the following phases:
+
+1. **Business Understanding**: Understanding the objectives and requirements of the business.
+2. **Data Understanding**: Collecting and familiarizing with the data to identify how data needs to be presented for manipulation.
+3. **Data Preparation**: Cleaning and converting data to a useful form.
+4. **Modeling**: Applying appropriate modeling techniques to extract quality information aligned with the business cause.
+5. **Evaluation**: Assessing results generated using various parameters.
+6. **Deployment**: Submitting and presenting outcomes to the clients.
 
 ## Summary
 
