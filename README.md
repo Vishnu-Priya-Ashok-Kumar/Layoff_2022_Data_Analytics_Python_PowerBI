@@ -41,30 +41,34 @@ The component of our solution will be based on the dashboard and the Analysis Re
 - Layoff dataset concentrates on tech companies across all Industries
 - 1415 companies from 55 countries were employed in the research 
 - Funding stage was grouped into various stages
--- Seed funding – The first financial support a company gets. Investors invest in a great idea. Usually from family and friends
--- Series A : follows seed funding. However long-term goals in generating profit are expected from the investors. Funds raised vary from $2 to 15 million
--- Series B : Comes after Series A. They are used to grow businesses further. Funding in this stage is for businesses with valuations of $30 to $60 million
-
--- Series C : The funding supports successful businesses to double profits. Like merging with other businesses or buying off companies or increasing branches and outlets
-
--- Series D, E, F, G, H, I, and  J : Are various stages of funding that most companies don’t go through due to financial expectation 
-
--- IPO (Initial Public Offering) : Is when a private company sells stock to the public to generate more funds. For most companies, this comes after Series C
-
--- Private equity : Is an investment partnership with matured companies. Private equity firms manage the portfolio of companies to increase their worth. 
-
--- Acquired : Refers to purchasing of majority of shares of another company to control the operations and the assets.
-
--- Unknown :  The funding source is not stated.
+    1. Seed funding – The first financial support a company gets. Investors invest in a great idea. Usually from family and friends
+    2. Series A : follows seed funding. However long-term goals in generating profit are expected from the investors. Funds raised vary from $2 to 15 million
+    3. Series B : Comes after Series A. They are used to grow businesses further. Funding in this stage is for businesses with valuations of $30 to $60 million
+    4. Series C : The funding supports successful businesses to double profits. Like merging with other businesses or buying off companies or increasing branches and outlets
+    5. Series D, E, F, G, H, I, and  J : Are various stages of funding that most companies don’t go through due to financial expectation 
+    6. IPO (Initial Public Offering) : Is when a private company sells stock to the public to generate more funds. For most companies, this comes after Series C
+    7. Private equity : Is an investment partnership with matured companies. Private equity firms manage the portfolio of companies to increase their worth. 
+    8. Acquired : Refers to purchasing of majority of shares of another company to control the operations and the assets.
+    9. Unknown :  The funding source is not stated.
 
 
 ### Methods of identifying and analysing data
 
--Data was obtained from https://www.kaggle.com/datasets/swaptr/layoffs-2022
+- Data was obtained from https://www.kaggle.com/datasets/swaptr/layoffs-2022
+  
+- Cleaning and manipulation of data were processed using Python-Jupyter Notes
+  
+- Analysis and dashboard were created using Power BI and Python-Jupyter Note
 
--Cleaning and manipulation of data were processed using Python-Jupyter Notes 
+### Analysis Approach using CRISP-DM
 
--Analysis and dashboard were created using Power BI and Python-Jupyter Note
+- **Business understanding** : Having a good understanding of the objectives and requirements of the business 
+- **Data understanding** : Collecting data and familiarizing with data to identify how data needs to be presented for manipulation
+- **Data preparation** : Cleans and converts data to a useful form 
+- **Modelling** : Applies the appropriate modelling techniques to extract quality information that aligns with the business cause
+- **Evaluation** : Assessing results generated using various parameters 
+- **Deployment** : Submitting and presenting outcomes to the clients
+
 
 
 
