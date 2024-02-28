@@ -36,6 +36,38 @@ The component of our solution will be based on the dashboard and the Analysis Re
 - The analysis model would utilize a lot of queries to draw conclusions and to determine associations between variables within the dataset using Python-Jupyter Notebook.
 - The Key Insights and recommendations are also delivered.
 
+### Understanding Data
+
+- Layoff dataset concentrates on tech companies across all Industries
+- 1415 companies from 55 countries were employed in the research 
+- Funding stage was grouped into various stages
+-- Seed funding – The first financial support a company gets. Investors invest in a great idea. Usually from family and friends
+-- Series A : follows seed funding. However long-term goals in generating profit are expected from the investors. Funds raised vary from $2 to 15 million
+-- Series B : Comes after Series A. They are used to grow businesses further. Funding in this stage is for businesses with valuations of $30 to $60 million
+
+-- Series C : The funding supports successful businesses to double profits. Like merging with other businesses or buying off companies or increasing branches and outlets
+
+-- Series D, E, F, G, H, I, and  J : Are various stages of funding that most companies don’t go through due to financial expectation 
+
+-- IPO (Initial Public Offering) : Is when a private company sells stock to the public to generate more funds. For most companies, this comes after Series C
+
+-- Private equity : Is an investment partnership with matured companies. Private equity firms manage the portfolio of companies to increase their worth. 
+
+-- Acquired : Refers to purchasing of majority of shares of another company to control the operations and the assets.
+
+-- Unknown :  The funding source is not stated.
+
+
+### Methods of identifying and analysing data
+
+-Data was obtained from https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
+-Cleaning and manipulation of data were processed using Python-Jupyter Notes 
+
+-Analysis and dashboard were created using Power BI and Python-Jupyter Note
+
+
+
 ### How does your solution provide value?
 The solution generated from our findings will provide both the Tech companies and the Financial Institutions significant information about the effects of COVID on their finances and workforce. We hope that this information will further act as a guide for these companies to create a better working system and to accommodate crises like this in the future.
 
