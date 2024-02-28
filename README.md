@@ -22,7 +22,7 @@
 
 ## Project Overview
 
-The "Layoff 2022 Data Analytics" project aims to analyze the impact of layoffs in the tech industries from 2020 to 2022, specifically evaluating the effects of the COVID-19 pandemic. The project delves into understanding the trends, patterns, and implications of layoffs across various tech companies worldwide. It involves data collection, cleaning, manipulation, and visualization to derive meaningful insights.
+The "Layoff 2022 Data Analytics" project aims to analyze the impact of layoffs in the tech industries from 2020 to 2022, specifically evaluating the effects of the COVID-19 pandemic. The project delves into understanding the trends, patterns, and implications of layoffs across various tech companies worldwide. It involves data collection, cleaning, manipulation, and Power BI is utilized for dynamic data visualization and interactive dashboard creation, enhancing the project's analytical capabilities.
 
 
 ### Project Title
