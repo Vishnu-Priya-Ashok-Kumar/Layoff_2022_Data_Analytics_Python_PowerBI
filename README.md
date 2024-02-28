@@ -160,6 +160,12 @@ df2022CompaniesLayoffCount.head()
 ![image](https://github.com/priya-ak/Python-Project-Layoff-Analysis-2022/assets/67804361/71884807-2379-4524-a817-762cfba69d6a)
 
 
+## Generating Key Insights Using Power BI
+![image](https://github.com/Vishnu-Priya-Ashok-Kumar/Python-Project-Layoff-Analysis-2022/assets/67804361/8196f789-ba9f-450c-ac75-4b05f49a3494)
+## Creating Dashboard for layout 2022 using Power BI
+![image](https://github.com/Vishnu-Priya-Ashok-Kumar/Python-Project-Layoff-Analysis-2022/assets/67804361/1b982575-7c1f-41bf-8975-f799efc08e7f)
+
+
 ## Summary
 
 The COVID-19 pandemic has had profound effects on the global economy, with the tech industry being no exception. Layoffs in tech companies have become increasingly prevalent as businesses navigate through economic uncertainties. The "Layoff 2022 Data Analytics" project addresses this phenomenon by providing a comprehensive analysis of layoffs in the tech sector.
