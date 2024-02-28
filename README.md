@@ -1,6 +1,5 @@
 # Layoff 2022 Data Analytics Python Project
 
-Here's the updated table of contents for your GitHub README file:
 
 ## Table of Contents
 
@@ -20,9 +19,7 @@ Here's the updated table of contents for your GitHub README file:
 14. [Integration of CRISP-DM Methodology](#integration-of-crisp-dm-methodology)
 15. [Summary](#summary)
 
-With these updates, the README file provides a structured outline of your project content, making it easier for readers to navigate through different sections.
 
-    
 ## Project Overview
 
 The "Layoff 2022 Data Analytics" project aims to analyze the impact of layoffs in the tech industries from 2020 to 2022, specifically evaluating the effects of the COVID-19 pandemic. The project delves into understanding the trends, patterns, and implications of layoffs across various tech companies worldwide. It involves data collection, cleaning, manipulation, and visualization to derive meaningful insights.
